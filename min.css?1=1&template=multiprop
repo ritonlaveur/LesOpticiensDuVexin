@@ -1,0 +1,2672 @@
+
+@font-face
+{
+	/*font-family: "Titillium";*/
+        font-family: "Titillium";
+	font-style: normal;
+	font-weight: normal;
+	/*src: url("/font/Website/themes/TitilliumText250wt.eot") format("eot");*/
+        src: url("font/Website/themes/TitilliumText250wt.eot") format("eot");
+	/*src: local('☺'),
+	    url("/font/Website/themes/TitilliumText400wt.ttf") format("truetype");*/
+        src: local('☺'),
+	    url("font/Website/themes/TitilliumText250wt.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "Titillium";
+	font-style: normal;
+	font-weight: bold;
+	src: url("font/Website/themes/TitilliumText400wt.eot") format("eot");
+	src: local('☺'),
+	    url("font/Website/themes/TitilliumText400wt.ttf") format("truetype");
+}
+
+body
+{
+    margin: 0;
+    padding: 0 0 40px 0;
+    font: normal 13px Arial;
+    color: #404040;
+    background: #F0F0F0;
+}
+
+/* EYECODE */
+#eyecode
+{
+    position: absolute;
+    left:-180px;
+    top: -135px;
+    height: 710px;
+    width: 1330px;
+    background-image: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/skinning-gradient.png) ;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    cursor: pointer;
+    z-index: -1;
+}
+
+
+#adClickMe_left
+{
+    cursor: pointer;
+    float: left;
+    height: 510px;
+    width: 175px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left:-175px; 
+    overflow:hidden;
+}
+
+#adClickMe_right
+{
+    cursor: pointer;
+    float: right;
+    height: 510px;
+    width: 187px;
+    /*border: 1px solid blue;*/
+    position: absolute;
+    right:-187px; 
+    overflow:hidden;
+}
+
+#bodyWrapper.bkgeyecode,
+#bodyWrapper.gold
+{
+    background: white;
+} 
+
+#pageEyecode
+{
+    width:940px;
+    margin:auto;
+}
+
+#pageEyecode a
+{
+    color: #737373;
+}
+
+#menuEyecode
+{
+    /*border: 1px solid red;*/
+    display: inline-block;
+
+}
+
+#menuEyecode ul,
+#menuEyecode li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+#menuEyecodehead ul,
+#menuEyecodehead li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menuEyecode > ul > li
+{
+    float: left;
+    position: relative;
+    color: #404040;
+    margin: 15px;
+    padding: 10px 0px;
+	-moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 10px #999999;
+    -moz-box-shadow: 3px 3px 10px #999999;
+    box-shadow: 3px 3px 10px #999999;
+    font-weight: bold;
+    min-width: 205px;
+    text-align: center;
+}
+
+#menuEyecodehead > ul > li
+{
+    float: left;
+    position: relative;
+    color: #404040;
+    margin: 0;
+    padding: 0;
+    min-width: 205px;
+    text-align: center;
+}
+
+#menuEyecode > ul > li.notactive
+{
+    background: -moz-linear-gradient(bottom, #737373, #A8A8A8 10%, #D9D9D9 50%, #F1F1F1 95%, #FEFEFE 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#737373),color-stop(10%,#A8A8A8),color-stop(50%,#D9D9D9),color-stop(95%,#F1F1F1),color-stop(100%,#FEFEFE));
+	background: -ms-linear-gradient(bottom, #737373, #A8A8A8 10%, #D9D9D9 50%, #F1F1F1 95%, #FEFEFE 100%);
+
+}
+
+#menuEyecode > ul > li.active
+{
+    background-color: #737373;
+}
+
+
+#contentEyecode
+{
+    margin: 0 15px;
+}
+
+#contentEyecode h2
+{
+     color: #DB0000;
+}
+#radio
+{
+
+    padding: 0 60px;
+}
+
+#radiospan
+{
+    background: url('https://static.youarethemodel.com/optisso/images/Website/themes/10/radio_foncer.png') no-repeat scroll 0 3px #FFFFFF;
+    padding: 25px 62px;
+}
+
+#videospan
+{
+    background: url('https://static.youarethemodel.com/optisso/images/Website/themes/10/video_foncer.png') no-repeat scroll 0 3px #FFFFFF;
+    padding:  10px 62px;
+}
+
+#radio object
+{
+    margin-top: 2px;
+}
+
+#imageentetemenu
+{
+    float: right;
+    margin: 0px 186px 0 10px;
+}  
+
+/*eyecode*/
+
+input,
+textarea,
+select
+{
+    font: normal 13px Arial;
+    color: #404040;
+}
+
+h1
+{
+    margin:  0;
+    padding: 0;
+    display: block;
+    font-family: "Titillium";
+    text-transform: uppercase;
+	font-weight: normal;
+	font-size: 30px;
+	color: #404040;
+	text-decoration: none;
+}
+
+#NotAccueil > h1,
+h2
+{
+    margin: 20px 0 10px 0;
+    padding: 0;
+    font-family: "Titillium";
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	color: #313131;
+}
+
+h2
+{
+    padding: 0;
+	font-size: 20px;
+}
+
+h3
+{
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+p
+{
+    margin: 10;
+    padding: 0;
+}
+
+a
+{
+    color: #808080;
+    text-decoration: none;
+}
+
+img
+{
+    border: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#top
+{
+    height: 105px;
+    background: linear-gradient(top, #FFFFFF, #D9D9D9);
+    background: -moz-linear-gradient(top, #FFFFFF, #D9D9D9);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF),to(#D9D9D9));
+    filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr='#FFFFFF', endColorstr='#D9D9D9', gradientType='0');
+	background: -ms-linear-gradient(top, #FFFFFF, #D9D9D9);
+}
+
+#topWrapper
+{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    height: 105px;
+    overflow: hidden;
+}
+
+#topLeft
+{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    padding-left: 25px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_title.png) no-repeat 0px 2px;
+}
+
+#topLeft a.title
+{
+    display: block;
+    font-family: "Titillium";
+    text-transform: uppercase;
+	font-weight: normal;
+	font-size: 30px;
+	color: #404040;
+	text-decoration: none;
+} 
+
+#topLeft span
+{
+    color: #666666;
+    font-family: "Titillium";
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#topRight
+{
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px -1px 10px #999999;
+    -moz-box-shadow: 0px -1px 10px #999999;
+    box-shadow: 0px -1px 10px #999999;
+    background: linear-gradient(top, #D9D9D9 15%, #FFFFFF 85%);
+    background: -moz-linear-gradient(bottom, #D9D9D9, #FFFFFF 15%, #FFFFFF 85%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#D9D9D9),color-stop(15%,#FFFFFF),color-stop(85%,#FFFFFF));
+}
+
+#topRight.network
+{
+    width: 125px;
+}
+
+#topRight .image
+{
+    margin: 10px 0;     
+    width: 100%;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#topRight #address
+{
+    display:none;
+}
+
+#address strong
+{
+    font-weight: bold;
+     
+    top: 0;
+    left: 5px;
+    height: 14px;
+    font-size: 12px;
+    overflow: hidden;
+}
+#address
+{
+    margin-top: 7px;
+}
+#address span
+{
+   margin-top: 20PX;
+   text-align: center; 
+   left: 5px;
+   display: block;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+#address span em
+{
+    font-style: normal;
+}
+
+#address div.phone
+{     
+    bottom: 0;
+    left: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #DB0000 url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_phone.png) no-repeat 3px center;
+    font-size: 14px;
+    padding: 2px 10px 2px 20px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 16px;
+    width:100px;
+    display:inline;
+    margin: 0 5px 0 70px;
+}
+
+#address a.mail
+{
+     
+    bottom: 0;
+    right: 5px;
+    background: #DB0000 url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_mail.png) no-repeat center center;
+    padding: 2px 13px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 16px;
+    display: inline;
+    width : 2px;
+}
+
+#menu
+{
+    width:100%;
+    float:left;
+    background: -moz-linear-gradient(bottom, #737373, #A8A8A8 10%, #D9D9D9 50%, #F1F1F1 95%, #FEFEFE 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#737373),color-stop(10%,#A8A8A8),color-stop(50%,#D9D9D9),color-stop(95%,#F1F1F1),color-stop(100%,#FEFEFE));
+	background: -ms-linear-gradient(bottom, #737373, #A8A8A8 10%, #D9D9D9 50%, #F1F1F1 95%, #FEFEFE 100%);
+}
+
+#menuWrapper
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#menuWrapper ul,
+#menuWrapper li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menuWrapper > ul
+{
+    margin-left: 20px;
+}
+
+#menuWrapper > ul > li
+{
+    float: left;
+    height: 30px;
+    position: relative;
+}
+
+#menuWrapper > ul > li > div
+{
+    height: 20px;
+    padding: 0px 10px;
+    margin: 5px 0;
+    border: 1px solid;
+    border-width: 0 1px;
+    border-right-color: #ADA19A;
+    border-left-color: #EBE5DD;
+}
+
+#menuWrapper > ul > li > div > a
+{
+    padding: 3px 5px 6px 5px; 
+    display: block;
+    color: #404040;
+    font-family: "Titillium";
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#menuWrapper > ul > li > div > a:hover,
+#menuWrapper > ul > li > div > a.current,
+#menuWrapper > ul > li:hover > div > a
+{
+    background: #DB0000;
+    -webkit-box-shadow: 0px 0px 5px #333333;
+    -moz-box-shadow: 0px 0px 5px #333333;
+    box-shadow: 0px 0px 5px #333333;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    color: #FFFFFF;
+}
+
+#menuWrapper > ul > li:first-child > div
+{
+    border-width: 0 1px 0 0;
+}
+
+#menuWrapper > ul > li:first-child > div > a:hover,
+#menuWrapper > ul > li:first-child > div > a.current,
+#menuWrapper > ul > li:first-child:hover > div > a
+{
+    -webkit-box-shadow: 0px 0px 0px #333333;
+    -moz-box-shadow: 0px 0px 0px #333333;
+    box-shadow: 0px 0px 0px #333333;
+}
+
+#menuWrapper > ul > li:first-child > div > a
+{
+    padding: 5px; 
+    border-width: 0 1px 0 0;
+    width: 20px;
+    height: 15px;
+	background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_home.png) no-repeat center 4px, -ms-linear-gradient(bottom, #AAAAAA 0%,#EEEEEE 30%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#aaaaaa',GradientType=0 );
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_home.png) no-repeat center 4px,-moz-linear-gradient(bottom, #AAAAAA 0%,#EEEEEE 30%);
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_home.png) no-repeat center 4px,-webkit-gradient(linear, left bottom, left top, color-stop(0%,#AAAAAA),color-stop(30%,#EEEEEE));
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+#menuWrapper > ul > li:first-child > div > a > div
+{
+    height: 15px;
+}
+
+#menuWrapper > ul > li:first-child > div > a:hover
+{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+#menuWrapper > ul > li:last-child div
+{
+    border-width: 0 0 0 1px;
+}
+
+#menuWrapper li ul
+{
+    position: absolute;
+    top: 28px;
+    left: 11px;
+    background: #DB0000;
+    padding: 10px 10px 5px 10px;
+    -webkit-box-shadow: 3px 3px 5px #666666;
+    -moz-box-shadow: 3px 3px 5px #666666;
+    box-shadow: 3px 3px 5px #666666;
+    display: none;
+    z-index: 9999;
+    zoom: 1;
+}
+
+#menuWrapper li:hover ul
+{
+    display: block;
+}
+
+#menuWrapper li ul li
+{
+    padding: 2px 0;
+    border: solid;
+    border-width: 1px 0;
+    border-bottom-color: #FF1C1C;
+    border-top-color: #B80000;
+}
+
+#menuWrapper li ul li:first-child
+{
+    border-width: 0 0 1px 0;
+}
+
+#menuWrapper li ul li:last-child
+{
+    border-width: 1px 0 0 0;
+}
+
+#menuWrapper li ul li a
+{
+    font: normal 12px Arial;
+    color: #FFFFFF;
+    white-space: nowrap;
+    display: block;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+#menuWrapper li ul li a:hover
+{
+    background: #DB0000;
+    color: #404040;
+}
+
+#bodyWrapper
+{
+    width: 960px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/background_body.png) repeat-y 0 0;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 10px #999999;
+    -moz-box-shadow: 0px 0px 10px #999999;
+    box-shadow: 0px 0px 10px #999999;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+
+#bodyLeft
+{
+    width: 620px;
+    padding: 0 10px 0px;
+    float:left;
+}
+
+#bodyLeft.network
+{
+    width: 940px;
+    background: white;
+}
+
+#bodyLeft #contactMap,
+#bodyLeft .contactMap
+{
+    border: 1px #DFDFDF dashed;
+    border-width: 0 0 1px;
+    padding: 0 0 10px;
+}
+
+#bodyLeft #contactMap #mapZone,
+#bodyLeft .contactMap .mapZone
+{
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#bodyLeft #contactMap h3,
+#bodyLeft .contactMap h3
+{
+    font-size: 18px;
+}
+
+#bodyLeft #contactMap #mapZone #gmap,
+#bodyLeft .contactMap .mapZone .gmap
+{
+    height: 230px;
+    width: 380px;
+    float: left;
+    margin-right: 10px;
+}
+
+#bodyLeft .contactMap .mapZone .gmap
+{
+    width: 700px;
+}
+
+#bodyLeft #contactMap #mapZone #call,
+#bodyLeft .contactMap .mapZone .call
+{
+    float: left;
+    width: 230px;
+}
+
+#bodyLeft #contactMap #mapZone #call div,
+#bodyLeft .contactMap .mapZone .call div
+{
+    background: #DB0000;
+    color: #FFFFFF;
+    font-family: "Titillium";
+    text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+#bodyLeft #contactMap #mapZone #call div strong,
+#bodyLeft .contactMap .mapZone .call div strong
+{
+    display: block;
+    font-size: 24px;
+}
+
+#bodyLeft #contactForm
+{}
+
+#bodyLeft #contactForm table
+{
+    margin: 20px 0;
+}
+
+#bodyLeft #contactForm table tr td
+{
+    /*padding: 3px 5px;*/
+}
+
+#bodyLeft #contactForm table tr td:first-child
+{
+    text-align: right;
+    width: 130px;
+}
+
+#bodyLeft #contactForm table tr td.top:first-child
+{
+    vertical-align: top;
+}
+
+#bodyLeft #contactMap input.text,
+#bodyLeft #contactForm input.text
+{
+    width: 200px;
+}
+
+#bodyLeft #contactForm #captcha
+{
+    width: 200px;
+}
+
+#bodyLeft #contactForm textarea
+{
+    width: 440px;
+    height: 150px;
+}
+
+#bodyLeft #contactMap input.text,
+#bodyLeft #contactForm input.text,
+#bodyLeft #contactForm textarea
+{
+    border: 1px solid #DFDFDF;
+}
+.magasinlist
+{
+   color: gray;
+   float:left;    
+   height: 20px;
+   background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_color.png) no-repeat left 1px;
+   padding: 0 0 0 20px;
+   font-weight: bold;
+}
+.help
+{
+   /* font-style: Arial;*/
+    color: #AFAFAF;
+    background: #F5F5F5;
+    padding: 5px;
+    clear: both;
+    font-size: 12px;
+    width: 90%
+}
+.time_hover
+{
+   background-color: #E5E5E5; 
+   border: 1px solid #E5E5E5;
+   width: 50px;
+   -moz-border-radius: 3px 3px 0 0;
+   border-radius: 5px 5px 5px 5px;
+}
+.time_click
+{
+   background-color: #E5E5E5; 
+   border: 1px solid #E5E5E5;
+   width: 50px;
+   -moz-border-radius: 3px 3px 0 0;
+   border-radius: 5px 5px 5px 5px;
+}
+/*.modulerdv
+{
+    padding: 3px 5px;
+    border: 1px solid #DFDFDF;
+    width: 230px;
+    height: 80px;
+    background: #F5F5F5;
+}
+.modulerdv label
+{
+    font-size: 16px;
+}
+.modulerdv div
+{
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modulerdv div input .date
+{
+  width: 80px;
+  text-align: center;  
+}
+.modulerdv div .help
+{
+    margin-top: 10px;
+}
+*/
+#bodyLeft #pageBanner
+{
+    margin-bottom: 10px;
+}
+
+#bodyLeft #pageBanner ul.menu
+{
+    margin: 0 0 0px 0;
+    padding: 1px 0 0 0;
+    width: 100%;
+    height: 100px;
+}
+
+#bodyLeft #pageBanner ul.menu.brand,
+#bodyLeft #pageBanner ul.menu.optic_frame_brand,
+#bodyLeft #pageBanner ul.menu.solar_frame_brand,
+#bodyLeft #pageBanner ul.menu.lens_brand,
+#bodyLeft #pageBanner ul.menu.contact_lens_brand
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/visual_brand.jpg) no-repeat center center;
+}
+
+#bodyLeft #pageBanner ul.menu.shop,
+#bodyLeft #pageBanner ul.menu.team
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/visual_shop.jpg) no-repeat center center;
+}
+
+#bodyLeft #pageBanner ul.menu li
+{
+    margin: 0 0 0 20px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+}
+
+#bodyLeft #pageBanner ul.menu li a
+{
+    color: white;
+    display: block;
+    float: left;
+    padding: 3px 5px 3px 20px;
+    margin: 1px 0 2px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_white.png) no-repeat 5px 4px;
+    text-decoration: none;
+}
+
+#bodyLeft #pageBanner ul.menu li a:hover,
+#bodyLeft #pageBanner ul.menu li a.current
+{
+    color: #404040;
+    background: #FFFFFF url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_grey.png) no-repeat 5px 4px;
+    -webkit-box-shadow: 2px 2px 10px #333333;
+    -moz-box-shadow: 2px 2px 10px #333333;
+    box-shadow: 2px 2px 10px #333333;
+}
+
+#bodyLeft #shopPush
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/push_shop.jpg) no-repeat center center;
+    height: 120px;
+    border: 1px #DFDFDF dashed;
+    border-width: 1px 0 1px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#bodyLeft #shopPush.normal a,
+#bodyLeft #shopTinyPush a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Titillium";
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	width: 205px;
+	float: right;
+	margin: 15px 60px 0 0;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/big_bullet_white.png) no-repeat left 4px;
+    padding-left: 20px;
+}
+
+#bodyLeft #shopPush.afflelou a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Titillium";
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	width: 380px;
+	float: right;
+	margin: 57px -4px 0 0;
+    padding-left: 20px;
+}
+
+
+#bodyLeft #brandTinyPush,
+#bodyLeft #tryOnTinyPush,
+#bodyLeft #shopTinyPush
+{
+    height: 215px;
+    width: 300px;
+    float: left;
+    border: 1px #DFDFDF dashed;
+    border-width: 0 0 1px;
+}
+#bodyLeft #brandTinyPush
+{
+   display:none;
+}
+#bodyLeft #brandTinyPush ul.menu.normal
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+#bodyLeft #brandTinyPush ul.menu.afflelou
+{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#bodyLeft #brandTinyPush ul.menu li
+{
+    margin: 0 0 0 -1px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+}
+
+#bodyLeft #brandTinyPush ul.menu li a
+{
+    color: #404040;
+    display: block;
+    float: left;
+    padding: 3px 5px 3px 20px;
+    margin: 2px 0 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #FFFFFF url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_grey.png) no-repeat 5px 4px;
+}
+
+#bodyLeft #brandTinyPush ul.menu li a:hover
+{
+    color: #FFFFFF;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_white.png) no-repeat 5px 4px,
+        -moz-linear-gradient(right, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_white.png) no-repeat 5px 4px,
+        -webkit-gradient(linear, right top, left top, color-stop(0%,rgba(0,0,0,0.7)),color-stop(100%,rgba(0,0,0,0.7)));
+}
+
+#bodyLeft #shopTinyPush
+{
+   display : none;
+}
+#bodyLeft #shopTinyPush a
+{
+	font-size: 25px;
+	width: 250px;
+	margin: 140px 40px 0 0px;
+    background: none;
+}
+
+#bodyLeft #tryOnTinyPush
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/push_tiny_tryon.png) no-repeat center right;
+    padding-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+#bodyLeft #tryOnTinyPush div
+{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 300px;
+    background: -moz-linear-gradient(right, #404040 50%,rgba(255,255,255,0.5) 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%,#404040),color-stop(100%,rgba(255,255,255,0.5)));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#404040',gradientType='1');
+	background: -ms-linear-gradient(right, #404040 50%,rgba(255,255,255,0.5) 100%);
+}
+
+#bodyLeft #tryOnTinyPush div a
+{
+    display: block;
+    float: right;
+    padding: 5px 5px 5px 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    height: 13px;
+    text-transform: uppercase;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_white.png) no-repeat 0 6px;
+}
+
+#bodyLeft #history
+{
+    font-size: 10px;
+    height: 14px;
+    padding: 5px 0 5px 20px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_history.png) no-repeat center left;
+}
+
+#bodyLeft #diaporama
+{
+    height: 270px;
+    width: 620px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#bodyLeft #brands ul.brand
+{
+    margin: 20px 40px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#bodyLeft #brands ul.brand li
+{
+    padding: 0;
+    list-style: none;
+    width: 130px;
+    height: 130px;
+    float: left;
+    background: white;
+    border: 1px #E9E9E9 solid;
+    border-width: 1px 1px 0 0;
+}
+
+#bodyLeft #brands ul.brand li:hover
+{
+    background: #EFEFEF;
+}
+
+#bodyLeft #brands ul.brand li.clickable:hover
+{
+    cursor: pointer;
+}
+
+#bodyLeft #brands ul.brand li.row1
+{
+    border-top-width: 0;
+}
+
+#bodyLeft #brands ul.brand li.col4,
+#bodyLeft #brands ul.brand li:last-child
+{
+    border-right-width: 0;
+}
+
+#bodyLeft #brands ul.brand li div.image
+{p
+    width: 110px;
+    height: 110px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+    background-image: url(images/ProfessionalBackOffice/noBrandLogo.png);
+}
+
+#bodyLeft #brands ul.brand li a,
+#bodyLeft #brands ul.brand li span
+{
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+
+#bodyLeft #brands p.shortDescription
+{
+    margin-bottom: 20px;
+}
+
+#bodyLeft #brands p.shortDescription img
+{
+    float: left;
+    margin: 0 12px 8px 0;
+}
+
+#bodyLeft #articles
+{}
+
+#bodyLeft #articles .article
+{
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+
+#bodyLeft #articles .article div.date,
+#bodyLeft #articles .article div.detail
+{
+    float: left;
+}
+
+#bodyLeft #articles .article div.date
+{
+    width: 30px;
+    height: 45px;
+    background: #DB0000;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+}
+
+#bodyLeft #articles .article div.date div.day
+{
+    font-size: 18px;
+}
+
+#bodyLeft #articles .article div.date div.month
+{
+    font-size: 10px;
+}
+
+#bodyLeft #articles .article div.detail
+{
+    width: 560px;
+}
+
+#bodyLeft #articles .article div.detail h3 a
+{
+    color: #404040;
+    text-decoration: none;
+}
+
+#bodyLeft #articles .article div.more
+{
+    margin-top: 10px;
+}
+
+#bodyLeft #team
+{}
+
+#bodyLeft #team .team
+{
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+
+#bodyLeft #team .team img,
+#bodyLeft #team .team div.detail
+{
+    float: left;
+}
+
+#bodyLeft #team .team div.detail div
+{
+    margin-bottom: 10px;
+}
+
+#bodyLeft #team .team div.detail div.text
+{
+    width: 450px;
+}
+
+#bodyLeft #team .team img
+{
+    margin: 0 10px 10px 0;
+}
+
+#bodyLeft .listFramesPicture
+{
+    margin: 10px 0;
+    overflow: hidden;
+    border: 1px #DFDFDF solid;
+    clear: both;
+}
+
+#bodyLeft .listFramesPicture,
+#bodyLeft .listFramesPicture li
+{
+    padding: 0;
+    list-style: none;
+}
+
+#bodyLeft .listFramesPicture li
+{
+    margin: 0;
+    display: block;
+    width: 150px;
+    height: 120px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 2px;
+}
+
+#bodyLeft .listFramesPicture li a
+{
+    display: block;
+    width: 150px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#bodyLeft .listFramesPicture li span
+{
+    display: block;
+    text-align: center;
+    color: #808080;
+}
+
+#bodyLeft #glassesComponents
+{
+    background: #F7F7F7;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 -10px -10px;
+}
+
+#bodyLeft #glassesComponents div.shadow
+{
+    height: 10px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 2px 2px 5px #999999;
+    -moz-box-shadow: 2px 2px 5px #999999;
+    box-shadow: 2px 2px 5px #999999;
+}
+
+#bodyLeft #glassesComponents #filters
+{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px 0 0 10px;
+}
+
+#bodyLeft #glassesComponents #filters .title
+{
+    padding: 2px 0 5px 10px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_color.png) no-repeat 0px 5px;
+    font-family: "Titillium";
+    color: #313131;
+    font-size: 16px;
+}
+
+#bodyLeft #glassesComponents #filters ul,
+#bodyLeft #glassesComponents #filters li
+{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+#bodyLeft #glassesComponents #filters ul,
+#bodyLeft #glassesComponents #filters ul
+{
+    overflow: hidden;
+    margin: 0 0 10px 10px;
+}
+
+#bodyLeft #glassesComponents #filters ul.gender li,
+#bodyLeft #glassesComponents #filters ul.frameType li,
+#bodyLeft #glassesComponents #filters ul.brand li
+{
+    display: block;
+    cursor: pointer;
+}
+
+#bodyLeft #glassesComponents #filters ul.gender li,
+#bodyLeft #glassesComponents #filters ul.frameType li
+{
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+    background: #E3E3E3;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bodyLeft #glassesComponents #filters ul.brand li
+{
+    padding: 2px;
+    margin: 2px 0;
+}
+
+#bodyLeft #glassesComponents #filters ul.gender li:hover,
+#bodyLeft #glassesComponents #filters ul.frameType li:hover,
+#bodyLeft #glassesComponents #filters ul.brand li:hover,
+#bodyLeft #glassesComponents #filters ul.gender li.active,
+#bodyLeft #glassesComponents #filters ul.frameType li.active,
+#bodyLeft #glassesComponents #filters ul.brand li.active
+{
+    background: #DB0000;
+    color: #FFFFFF;
+}
+
+#bodyLeft #glassesComponents #filters input
+{
+    display: none;
+}
+
+#bodyLeft #glassesComponents #results
+{
+    width: 470px;
+    float: left;
+}
+
+#bodyLeft #glassesComponents #results .contact
+{
+    height: 64px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/visual_phone.png) no-repeat right center;
+    overflow: hidden;
+}
+
+#bodyLeft #glassesComponents #results .contact .text
+{
+    padding: 15px 0;
+    font-size: 14px;
+    color: #808080;
+    width: 250px;
+    float: left;
+}
+
+#bodyLeft #glassesComponents #results .contact .phone
+{
+    padding: 17px 0 0 40px;
+    font-size: 22px;
+    display: block;
+    float: left;
+}
+
+#bodyLeft #glassesComponents #results #frames
+{
+    min-height: 400px;
+    background: #FFFFFF;
+    -webkit-box-shadow: -2px -2px 5px #999999;
+    -moz-box-shadow: -2px -2px 5px #999999;
+    box-shadow: -2px -2px 5px #999999;
+    padding: 10px;
+}
+
+#bodyLeft #glassesComponents #results #frames ul,
+#bodyLeft #glassesComponents #results #frames li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#bodyLeft #glassesComponents #results #frames ul
+{
+    overflow: hidden;
+}
+
+#bodyLeft #glassesComponents #results #frames li
+{
+    float: left;
+    width: 203px;
+    padding: 10px;
+    border: 1px #E9E9E9 solid;
+    border-width: 1px 1px 0 0;
+}
+
+#bodyLeft #glassesComponents #results #frames li.row1
+{
+    border-top-width: 0;
+}
+
+#bodyLeft #glassesComponents #results #frames li.col2,
+#bodyLeft #glassesComponents #results #frames li:last-child
+{
+    border-right-width: 0;
+}
+
+#bodyLeft #glassesComponents #results #frames li strong,
+#bodyLeft #glassesComponents #results #frames li em,
+#bodyLeft #glassesComponents #results #frames li a
+{
+    display: block;
+}
+
+#bodyLeft #glassesComponents #results #frames li em
+{
+    font-size: 10px;
+    color: #808080;
+}
+
+#bodyLeft #glassesComponents #results #frames li a
+{
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#bodyLeft #glassesComponents #results #frames li div.button
+{
+    text-align: center;
+}
+
+#bodyLeft #glassesComponents #results #frames li div.button input
+{
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF8A8A), to(#D12828));
+    background: -moz-linear-gradient(top,  #FF8A8A,  #D12828);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8A8A', endColorstr='#D12828');
+	background: -ms-linear-gradient(top,  #FF8A8A,  #D12828);
+    color: #FFFFFF;
+    border: none;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#bodyLeft #siteMap
+{
+    padding: 0 0 0 20px;
+}
+
+#bodyLeft #siteMap ul,
+#bodyLeft #siteMap li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#bodyLeft #siteMap li
+{
+    padding: 5px 0 5px 15px;
+    margin: 0 0 0 10px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_color.png) no-repeat 0px 6px;
+}
+
+#bodyLeft .opticianServices
+{
+    margin-bottom: 10px;
+}
+
+#bodyLeft .opticianServices img
+{
+    margin-right: 10px;
+}
+
+#bodyLeft .professionalPicturesMultiprop
+{
+    margin-bottom: 10px;
+    padding-top : 20px;
+    height:300px;
+   
+}
+
+.multipropshortdesc
+{
+    height:325px;
+    /*border: 1px dashed red; */
+    overflow: hidden;
+    word-wrap: break-word;
+    text-align: justify; 
+}
+#bodyLeft .imagmag
+{ 
+    height:200px;        
+}
+#bodyLeft .imagmag b
+{ 
+display: block;
+float: left; 
+width: 240px;
+height: 150px;
+background-repeat: no-repeat;
+background-position: center center;
+ margin:  30px;
+-webkit-box-shadow: 0px -1px 10px #999999;
+-moz-box-shadow: 0px -1px 10px #999999;
+box-shadow: 0px -1px 10px #999999;    
+}
+#bodyLeft .imagmag a
+{
+  text-decoration: none;  
+}
+#bodyLeft .imagmag a:hover
+{
+  text-decoration: underline; 
+  
+}
+.titreblocmag
+{
+    font-family: "Arial";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+#bodyLeft .professionalPicturesMultiprop a
+{
+    display: block;
+    float: left;
+    border: 1px #DFDFDF solid;
+    width: 290px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*padding: 5px;*/
+    margin-right: 20px; 
+    -webkit-box-shadow: 0px -1px 10px #999999;
+    -moz-box-shadow: 0px -1px 10px #999999;
+    box-shadow: 0px -1px 10px #999999; 
+}
+
+#bodyLeft .professionalPicturesMultiprop .multipropshortdesc a
+{
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; 
+
+}
+
+#bodyLeft .professionalPicturesMultiprop a:last-child
+{
+    margin: 0;
+}
+
+#bodyRight
+{
+    width: 296px;
+    padding: 24px 12px 0;
+    float:left;
+    margin-bottom: 20px;
+}
+
+#bodyRight .rightBox
+{
+    -webkit-box-shadow: 0px 0px 10px #999999;
+    -moz-box-shadow: 0px 0px 10px #999999;
+    box-shadow: 0px 0px 10px #999999;
+    padding: 45px 10px 10px;
+    background: -moz-linear-gradient(top, #D9D9D9 0px,#FFFFFF 20px);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D9D9D9),color-stop(20%,#FFFFFF),color-stop(100%,#FFFFFF));
+    position: relative;
+    border: 1px #FFFFFF solid;
+    border-width: 1px 1px 0 0;
+    margin: 0 0 20px 0;
+}
+
+#bodyRight .rightBox .title
+{
+    position: absolute;
+    top: 10px;
+    left: -12px;
+    background: #DB0000 url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_rightPanel.png) no-repeat 7px center;
+    padding: 8px 15px 3px 22px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 2px 2px 10px #999999;
+    -moz-box-shadow: 2px 2px 10px #999999;
+    box-shadow: 2px 2px 10px #999999;
+}
+
+#bodyRight .rightBox .title h2
+{
+    margin: -3px 0 0 0;  
+    padding: 0;
+    color: #FFFFFF;
+    font-family: "Titillium";
+    font-size: 16px;
+}
+
+#bodyRight .rightBox .title .angle_rightPanel
+{
+    position: absolute;
+    left: 0px;
+    bottom: -12px;
+    height: 12px;
+    width: 12px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/angle_rightPanel.png) no-repeat center center;
+}
+
+#bodyRight .rightBox ul,
+#bodyRight .rightBox li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#bodyRight .rightBox ul
+{
+    margin: 5px 0 5px 10px;
+}
+
+#bodyRight .rightBox li
+{
+    padding: 5px 0 0 15px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_color.png) no-repeat 0px 7px;
+}
+
+#bodyRight .rightBox table
+{
+    width: 100%;
+}
+.rightBox table
+{
+    padding: 10px 20px;
+}
+.rightBox td
+{
+    padding: 4px;
+    border: 1px #E6E6E6 solid;
+    border-width: 0 0 1px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.rightBox td.first
+{
+    font-weight: bold;
+    text-align: left;
+}
+
+.rightBox td.third
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_schedule.png) no-repeat center center;
+    width: 0px;
+}
+
+.rightBox tr:last-child td
+{
+    border: none;
+}
+
+#bodyRight .rightBox .content em
+{
+    font-size: 10px;
+    color: #808080;
+    display: block;
+}
+
+#bodyRight .rightBox .content .more
+{
+    overflow: hidden;
+}
+
+#bodyRight .rightBox .content div.more a,
+#bodyLeft div.more a
+{
+    display: block;
+    color: #313131;
+    font-weight: bold;
+    text-decoration: none;
+    height: 14px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_color.png) no-repeat left 1px;
+    padding: 0 0 0 12px;     
+    float: right;
+}
+
+#bodyRight .rightBox .content div.more a:hover,
+#bodyLeft div.more a:hover,
+#bodyRight .rightBox a.more:hover
+{
+    text-decoration: underline;
+}
+
+#bodyRight .rightBox a.more
+{
+    font-size: 10px;
+    padding: 5px 0 5px 20px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_plus.png) no-repeat left 4px;
+    text-decoration: none;
+}
+
+#bodyRight .rightBox.gmap
+{
+    height: 148px;
+    padding: 0;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/gmap.png) no-repeat center center;
+    cursor: pointer;
+}
+
+#bodyRight .rightBox.gmap div.more
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DB0202',gradientType='1');
+	background: -ms-linear-gradient(right, #DB0202 0%,rgba(255,255,255,0.5) 100%);
+    background: -moz-linear-gradient(right, #DB0202 0%,rgba(255,255,255,0.5) 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,#DB0202),color-stop(100%,rgba(255,255,255,0.5)));
+}
+
+#bodyRight .rightBox.gmap div.more a
+{
+    display: block;
+    float: right;
+    padding: 5px 5px 5px 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    height: 13px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/bullet_white.png) no-repeat left 6px;
+}
+
+#bodyRight .rightBox strong a
+{
+    color: #404040;
+    text-decoration: none;
+}
+
+#bodyRight #tryZone
+{
+}
+
+#bodyRight #tryZone .title
+{    
+    font-family: "Titillium";
+    font-size: 14px;
+    text-transform: uppercase;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/picto_info.png) no-repeat left 4px;
+    padding: 4px 5px 5px 20px;
+    margin-left: 10px;
+}
+
+#bodyRight #tryZone ul,
+#bodyRight #tryZone li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#bodyRight #tryZone li
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/picto_check.png) no-repeat left 6px;
+    padding: 4px 5px 5px 20px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+#bodyRight #tryZone #fitPhotoContainer
+{
+    width: 275px;
+    height: 440px;
+    margin: 10px;
+    position: absolute;
+    top: 215px;
+    right: 12px;
+}
+
+#bodyRight #tryZone #fitPhotoContainer #fitPhoto
+{
+    width: 275px;
+}
+
+div#admin
+{
+    position: absolute;
+    bottom: -29px;
+    right: 0px;
+    padding: 15px 10px 7px 30px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_key.png) no-repeat 10px 13px, -moz-linear-gradient(top, #686161,#999999);
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_key.png) no-repeat 10px 13px, -webkit-gradient(linear, left top, left bottom, color-stop(0,#686161),color-stop(100%,#999999));
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    z-index: -1;
+    width: 112px;
+    height: 15px;
+}
+
+a.admin
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 9909;
+    position: absolute;
+    bottom: -22px;
+    right: 10px;
+    display: block;
+}
+
+#coupon 
+{
+    background: -moz-linear-gradient(top, #E6E6E6 0px,#FFFFFF 30px);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6E6E6),color-stop(20%,#FFFFFF),color-stop(100%,#FFFFFF));
+    clear: both;
+}
+
+#coupon .coupon,
+#coupon .coupon > div
+{
+    width: 300px;
+    color: #FFFFFF;
+    font: normal 12px Arial;
+}
+
+#coupon .coupon
+{
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#coupon .coupon > a
+{
+    font: 10px Arial;
+    color: #B3B3B3;
+    text-decoration: none;
+}
+
+#coupon .coupon > div
+{
+    height: 120px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/coupon_reduction.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, from(#D12828), to(#FF8A8A));
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/coupon_reduction.png) no-repeat center center, -moz-linear-gradient(top,  #D12828,  #FF8A8A);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D12828', endColorstr='#FF8A8A');
+	background: -ms-linear-gradient(top,  #D12828,  #FF8A8A);
+    position: relative;
+}
+
+#coupon .title
+{
+    color:#FFFFFF;
+    background: #DB0000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Titillium";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 3px 5px 1px;
+    -moz-box-shadow: 2px 2px 5px #666666;
+    -webkit-box-shadow: 2px 2px 5px #666666;
+    box-shadow: 2px 2px 5px #666666;
+}
+
+#coupon .text
+{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 10px;
+}
+
+#coupon .big
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#coupon .baseline
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: -6px;
+}
+
+#coupon .couponContent
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#coupon .print
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #DB0000 ;
+    padding: 3px 5px;
+    font-size: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FD4646), to(#630A0A));
+    background: -moz-linear-gradient(top,  #FD4646,  #630A0A);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FD4646', endColorstr='#630A0A');
+	background: -ms-linear-gradient(top,  #FD4646,  #630A0A);
+}
+
+#coupon .print a
+{
+    color: #FFFFFF;
+}
+
+#brandCarrouselContainer
+{
+    clear: both;
+}
+
+#couponCarrouselContainer
+{
+    margin: 0 0 20px; 
+    width: 300px;
+}
+
+
+#brandCarrousel
+{
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #E6E6E6 0px,#FFFFFF 20px,#FFFFFF 90px,#E6E6E6 110px);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6E6E6),color-stop(15%,#FFFFFF),color-stop(85%,#FFFFFF),color-stop(100%,#E6E6E6));
+}
+
+#brandCarrousel li,
+#brandCarrousel li a
+{
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#brandCarrousel li
+{
+    margin: 5px 10px;   
+}
+
+#brandCarrousel li a
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+#couponCarrousel .coupon,
+#couponCarrousel .coupon > div
+{
+    width: 296px;
+    color: #FFFFFF;
+    font: normal 12px Arial;
+}
+
+#couponCarrousel .coupon
+{
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#couponCarrousel .coupon > a
+{
+    font: 10px Arial;
+    color: #B3B3B3;
+    text-decoration: none;
+}
+
+#couponCarrousel .coupon > div
+{
+    height: 120px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/coupon_reduction.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, from(#D12828), to(#FF8A8A));
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/coupon_reduction.png) no-repeat center center, -moz-linear-gradient(top,  #D12828,  #FF8A8A);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D12828', endColorstr='#FF8A8A');
+	background: -ms-linear-gradient(top,  #D12828,  #FF8A8A);
+    position: relative;
+}
+
+#couponCarrousel .title
+{
+    color: #FFFFFF;
+    background: #DB0000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Titillium";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 3px 5px 1px;
+    -moz-box-shadow: 2px 2px 5px #666666;
+    -webkit-box-shadow: 2px 2px 5px #666666;
+    box-shadow: 2px 2px 5px #666666;
+}
+
+#couponCarrousel .text
+{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 10px;
+}
+
+#couponCarrousel .big
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#couponCarrousel .baseline
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: -6px;
+}
+
+#couponCarrousel .couponContent
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#couponCarrousel .print
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #DB0000 ;
+    padding: 3px 5px;
+    font-size: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FD4646), to(#630A0A));
+    background: -moz-linear-gradient(top,  #FD4646,  #630A0A);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FD4646', endColorstr='#630A0A');
+	background: -ms-linear-gradient(top,  #FD4646,  #630A0A);
+}
+
+#couponCarrousel .print a
+{
+    color: #FFFFFF;
+}
+
+.bx-window{
+    height: 120px;
+    width: 296px;
+
+}
+.pager-link{
+
+    background: url(images/Common/bxSlider/diaporama_off.png);
+    background-repeat:no-repeat;
+}
+.pager-active{
+
+    background: url(images/Common/bxSlider/diaporama_on.png);
+    background-repeat:no-repeat;
+}
+.bx-pager{
+    text-align: center;
+    margin-top: 3px;
+}
+
+.bx-pager > a {
+    text-decoration: none;
+    height:12px;
+    width: 12px;
+    margin: 3px;
+
+}
+
+.FacebookLogo,
+.TwitterLogo{
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+#footer
+{
+    padding: 10px;
+    background: #FFFFFF;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    height: 115px;
+    clear: both;
+}
+#mapreseau
+{
+    width: 950px;
+    background-color: white;
+    height: 250px;     
+}
+#nosmag
+{
+    height:auto;
+    padding-bottom : 40px !important;
+}
+#presentmag
+{
+    width: 950px;
+    background-color: white;
+    height: 240px;
+}
+#presentmag .magBox
+{
+    padding: 10px 7px;
+    width: 300px;
+    float: left;
+    border: 2px solid whiteSmoke;
+    height: 200px;
+    border-width: 0 2px 0 0;
+}
+#presentmag .magBox:last-child
+{ 
+    border: none;
+}
+#footer .footerBox
+{
+    padding: 10px 20px;
+    width: 190px;
+    float: left;
+    border: 2px dotted #DB0000;
+    height: 95px;
+    border-width: 0 2px 0 0;
+}
+
+#footer .footerBox .title
+{
+    font-weight: bold;
+    color: #3B3B3B;
+}
+
+#footer .footerBox:first-child
+{
+    text-align: center;
+}
+
+#footer .footerBox:first-child .title
+{
+    margin-bottom: 10px;
+}
+
+#footer .footerBox:last-child
+{
+    text-align: center;
+    border: none;
+}
+
+#footer .footerBox ul,
+#footer .footerBox li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#footer .footerBox li
+{
+    padding: 5px 0 0 10px;
+}
+
+#footer .footerBox a
+{
+    font-size: 11px;
+    color: #666666;
+    text-decoration: none;
+}
+
+#footer .footerBox a:hover
+{
+    text-decoration: underline;
+}
+#footer .footerBox span
+{
+    font-size: 11px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.pagination
+{
+    text-align: center;
+}
+
+.pagination a,
+.pagination strong
+{
+    margin: 3px;
+    font-size: 14px;
+}
+
+.pagination a img
+{
+    vertical-align: -9px;
+}
+
+.hide
+{
+    display:none;
+}
+
+.window
+{
+    width: 600px;
+    -webkit-box-shadow: 2px 2px 10px #999999;
+    -moz-box-shadow: 2px 2px 10px #999999;
+    box-shadow: 2px 2px 10px #999999;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    background: #FFFFFF;
+    z-index: 9999;
+    min-height: 200px;
+    border: 1px #DFDFDF solid;
+}
+
+.window .header
+{
+    background: #DB0000;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Titillium";
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.window .header span
+{
+    display: block;
+    float: right;
+    width: 19px;
+    height: 19px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/picto_close.png) no-repeat center center;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.window ul,
+.window li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.window li
+{
+    padding: 5px 0 0 15px;
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/10/bullet_color.png) no-repeat 0px 6px;
+    margin: 5px 20px;
+}
+
+.window div.close
+{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#bodyLeft #contactForm input.text.mandatory,
+#bodyLeft #contactForm textarea.mandatory
+{
+    border: 1px red solid;
+}
+
+.mandatoryMessage
+{
+    border: 1px red solid;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+}
+
+#topWrapper.print div.image
+{
+    text-align: center;
+}
+
+#topWrapper.print #topLeft a.title
+{
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#bodyWrapper.print
+{
+    background: #FFFFFF;
+}
+
+#bodyWrapper.print #contactMap
+{
+    border: 1px #DFDFDF dashed;
+    border-width: 0 0 1px;
+    padding: 10px;
+}
+
+#bodyWrapper.print #contactMap #mapZone
+{
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#bodyWrapper.print #contactMap h2
+{
+    display: none;
+}
+
+#bodyWrapper.print #contactMap h3
+{
+    font-size: 18px;
+}
+
+#bodyWrapper.print #contactMap #mapZone #gmapmultiprop
+{
+    height: 300px;
+    width: 700px;
+    float: left;
+    margin-right: 10px;
+}
+
+#bodyWrapper.print #contactMap #mapZone #call
+{
+    float: left;
+    width: 230px;
+}
+
+#bodyWrapper.print #contactMap #mapZone #call div
+{
+    background: #DB0000;
+    color: #FFFFFF;
+    font-family: "Titillium";
+    text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+#bodyWrapper.print #contactMap #mapZone #call div strong
+{
+    display: block;
+    font-size: 24px;
+}
+
+#bodyWrapper.print div.coupon
+{
+    border: 2px #DFDFDF dotted;
+    margin: 8px;
+    cursor: default;
+}
+
+#bodyWrapper.print div.coupon strong
+{
+    display: block;
+    margin: 3px;
+    color: #404040;
+}
+
+#bodyWrapper.print div.coupon span
+{
+    display: block;
+    margin: 3px;
+    color: #404040;
+    font-style: italic;
+}
+
+#bodyWrapper.print #coupon div.print
+{
+    padding: 20px;
+    background: #FFFFFF;
+    text-align: center;
+    position: static;
+    filter: none;
+}
+
+#bodyWrapper.print div.print input
+{
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF8A8A), to(#D12828));
+    background: -moz-linear-gradient(top,  #FF8A8A,  #D12828);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8A8A', endColorstr='#D12828');
+	background: -ms-linear-gradient(top,  #FF8A8A,  #D12828);
+    color: #FFFFFF;
+    border: none;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#directionForm,
+.directionForm
+{
+    margin-top: 0px;
+    float: left;
+}
+
+#directionForm div,
+.directionForm div
+{
+    margin: 5px 0;
+}
+
+#directionPopup,
+.directionPopup
+{
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+#direction
+{
+    width: 490px;
+    height: 480px;
+    float: left;
+    margin: 10px 0 10px 10px;
+}
+
+#directionDetails
+{
+    width: 380px;
+    padding-right: 10px;
+    height: 490px;
+    margin-left: 10px;
+    float: left;
+    overflow: auto;
+}
+
+div.imagePopup
+{
+    background: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+div.imagePopup img
+{
+    margin: 10px 0;
+}
+
+div.imagePopup div
+{
+    background: #DB0000;
+    padding: 10px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+a.partnerLogo
+{
+    display: block;
+}
+
+
+#bodyRight #pushAfflelou
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/themes/template/D.png) no-repeat center center;
+    height: 250px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#advertisingsdlo{
+    width: 300px;
+    height: 140px;
+    position: relative;
+    margin-bottom: 20px;     
+}
+
+#advertisingsdlo.FR
+{
+    background-image: url(https://static.youarethemodel.com/optisso/images/Website/fitwall/push_essilor_A.png);
+}
+
+#advertisingsdlo.ES
+{
+     background-image: url(https://static.youarethemodel.com/optisso/images/Website/fitwall/push_essilor_ES_A.png);
+}
+
+
+#advertisingsdlo div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#advertisingsdlo a
+{
+    display: block;
+}
+
+#FitWall_E_push_sdlo
+{
+    z-index: 0;
+}
+ 
+#couche2 {
+    z-index: 1;
+    color: transparent;
+    width: 300px;
+    height: 140px;
+    display: block;
+    font-size:155px;
+    filter : alpha(opacity=20); /* pour IE 6 */ 
+}
+div.listmagasin
+{    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Titillium";
+    color: #313131;
+}
+
+div#mapreseau
+{
+    height: 290px;
+    padding-top: 20px;
+       
+}
+div#mapreseau #mapZone
+{ 
+    border : 2px dashed whiteSmoke;
+    border-width : 2px 0 0 0 ;
+    padding-top: 10PX;
+    position: absolute;
+}
+div#mapreseau #mapZone #gmapmultiprop
+{
+    height: 230px;
+    margin-right: 10px;
+}
+.listmag
+{
+    margin: 20px 0 10px 0;
+    padding: 0;
+    font-family: "Titillium";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #313131;
+}
+div#multipropdescription
+{
+    
+}
+
+#errors
+{
+    display: none;
+}
+
+.social 
+{
+    margin-top:10px;
+}
+.social .facebooklikeover
+{
+    overflow: hidden;
+    width:74px;
+    float:left;
+    margin-right:20px;
+    height:24px;
+}
+.social .facebooklikeover .facebooklike
+{
+    float: left;
+    margin-top:-40px;
+}
+.social .twitterlike
+{
+    width: 95px;
+    float: left;
+}
+.social .googlepluslike
+{
+    width: 50px;
+    float: left;
+}
+
+
+#socialBox
+{
+    width: 250px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+#socialbuttonFacebook,
+#socialbuttonTwitter
+{
+    width: 99px;
+    height: 65px;
+    cursor: pointer;
+    float: left;
+	font-style: italic;
+	font-size: 10px;
+}
+
+#socialbuttonFacebook div,
+#socialbuttonTwitter div
+{
+    margin-top: 10px;
+}
+
+
+#socialbuttonFacebook
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/socialBox/bouton_facebook.png) no-repeat center center transparent;
+}
+
+#socialbuttonTwitter
+{
+    background: url(https://static.youarethemodel.com/optisso/images/Website/socialBox/bouton_twitter.png) no-repeat center center transparent;
+}
+
+.social2 
+{
+    margin-top:-25px;
+    margin-right: 10px;
+    float: right;
+}
+.social2 .facebooklikeover
+{
+    overflow: hidden;
+    width:58px;
+    float:left;
+    margin-right:20px;
+    height:24px;
+}
+.social2 .facebooklikeover .facebooklike
+{
+    float: left;
+    margin-top:-40px;
+}
+.social2 .twitterlike
+{
+    width: 95px;
+    float: left;
+}
+.social2 .googlepluslike
+{
+    float: left;
+}
+.socialprint 
+{
+    padding-top: 5px;
+    padding-left: 31px;
+}
+.socialprint .facebooklikeover
+{
+    overflow: hidden;
+    width:58px;
+    float:left;
+    margin-right:15px;
+    height:24px;
+}
+.socialprint .facebooklikeover .facebooklike
+{
+    float: left;
+    margin-top:-40px;
+}
+.socialprint .twitterlike
+{
+    width: 95px;
+    float: left;
+}
+.socialprint .googlepluslike
+{
+    float: left;
+}
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
+#sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none;}
+#sb-overlay{position:relative;height:100%;width:100%;}
+#sb-wrapper{position:absolute;visibility:hidden;width:100px;}
+#sb-wrapper-inner{position:relative;border:1px solid #303030;overflow:hidden;height:100px;}
+#sb-body{position:relative;height:100%;}
+#sb-body-inner{position:absolute;height:100%;width:100%;}
+#sb-player.html{height:100%;overflow:auto;}
+#sb-body img{border:none;}
+#sb-loading{position:relative;height:100%;}
+#sb-loading-inner{position:absolute;font-size:14px;line-height:24px;height:24px;top:50%;margin-top:-12px;width:100%;text-align:center;}
+#sb-loading-inner span{background:url(images/Common/shadowbox/loading.gif) no-repeat;padding-left:34px;display:inline-block;}
+#sb-body,#sb-loading{background-color:#060606;}
+#sb-title,#sb-info{position:relative;margin:0;padding:0;overflow:hidden;}
+#sb-title-inner{font-size:16px;}
+#sb-info,#sb-info-inner{height:20px;line-height:20px;}
+#sb-info-inner{font-size:12px;}
+#sb-nav{float:right;height:16px;padding:2px 0;width:45%;}
+#sb-nav a{display:block;float:right;height:16px;width:16px;margin-left:3px;cursor:pointer;background-repeat:no-repeat;}
+#sb-nav-close{background-image:url(images/Common/shadowbox/close.png);}
+#sb-nav-next{background-image:url(images/Common/shadowbox/next.png);}
+#sb-nav-previous{background-image:url(images/Common/shadowbox/previous.png);}
+#sb-nav-play{background-image:url(images/Common/shadowbox/play.png);}
+#sb-nav-pause{background-image:url(images/Common/shadowbox/pause.png);}
+#sb-counter{float:left;width:45%;}
+#sb-counter a{padding:0 4px 0 0;text-decoration:none;cursor:pointer;color:#fff;}
+#sb-counter a.sb-counter-current{text-decoration:underline;}
+div.sb-message{font-size:12px;padding:10px;text-align:center;}
+div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
+@media screen and (max-width: 768px) {
+	#sb-wrapper-inner {
+		min-height: 690px !important;
+	}
+}
